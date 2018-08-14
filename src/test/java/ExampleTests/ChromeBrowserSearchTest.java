@@ -15,6 +15,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class ChromeBrowserSearchTest{
   
   private final int timeWaiting=4;
+  
   private final WebDriver driver=new ChromeDriver();
   
   static{System.setProperty("webdriver.chrome.driver", "chromedriver.exe");}
